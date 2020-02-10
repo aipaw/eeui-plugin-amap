@@ -12,7 +12,7 @@
 #import "WXConvert+AMapKit.h"
 #import <WeexPluginLoader/WeexPluginLoader.h>
 
-WX_PlUGIN_EXPORT_COMPONENT(amap-circle, WXMapCircleComponent)
+WX_PlUGIN_EXPORT_COMPONENT(eeui-amap-circle, WXMapCircleComponent)
 @implementation WXMapCircleComponent
 
 @synthesize center = _center;

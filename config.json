@@ -1,0 +1,6 @@
+{
+	"desc": "迁移自weex官方组件",
+	"requireFormatName": "eeuiAmap",
+	"requireName": "eeui/amap",
+	"title": "高德地图"
+}

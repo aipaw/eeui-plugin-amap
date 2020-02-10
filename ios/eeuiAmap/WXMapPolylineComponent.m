@@ -9,7 +9,7 @@
 #import "WXMapPolylineComponent.h"
 #import <WeexPluginLoader/WeexPluginLoader.h>
 
-WX_PlUGIN_EXPORT_COMPONENT(amap-polyline, WXMapPolylineComponent)
+WX_PlUGIN_EXPORT_COMPONENT(eeui-amap-polyline, WXMapPolylineComponent)
 @implementation WXMapPolylineComponent
 
 

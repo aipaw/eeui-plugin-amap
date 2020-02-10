@@ -25,13 +25,13 @@ public class amapEntry {
 
         //1、注册weex模块
         try {
-            WXSDKEngine.registerComponent("amap-circle", WXMapCircleComponent.class);
-            WXSDKEngine.registerComponent("amap-info-window", WXMapInfoWindowComponent.class);
-            WXSDKEngine.registerComponent("amap-marker", WXMapMarkerComponent.class);
-            WXSDKEngine.registerComponent("amap-polygon", WXMapPolygonComponent.class);
-            WXSDKEngine.registerComponent("amap-polyline", WXMapPolyLineComponent.class);
-            WXSDKEngine.registerComponent("amap", WXMapViewComponent.class);
-            WXSDKEngine.registerModule("amap", WXMapModule.class);
+            WXSDKEngine.registerComponent("eeui-amap-circle", WXMapCircleComponent.class);
+            WXSDKEngine.registerComponent("eeui-amap-info-window", WXMapInfoWindowComponent.class);
+            WXSDKEngine.registerComponent("eeui-amap-marker", WXMapMarkerComponent.class);
+            WXSDKEngine.registerComponent("eeui-amap-polygon", WXMapPolygonComponent.class);
+            WXSDKEngine.registerComponent("eeui-amap-polyline", WXMapPolyLineComponent.class);
+            WXSDKEngine.registerComponent("eeui-amap", WXMapViewComponent.class);
+            WXSDKEngine.registerModule("eeuiAmap", WXMapModule.class);
         } catch (WXException e) {
             e.printStackTrace();
         }

@@ -20,7 +20,7 @@
 #import <objc/runtime.h>
 #import <WeexPluginLoader/WeexPluginLoader.h>
 #define WX_CUSTOM_MARKER @"wx_custom_marker";
-WX_PlUGIN_EXPORT_COMPONENT(amap, WXMapViewComponent)
+WX_PlUGIN_EXPORT_COMPONENT(eeui-amap, WXMapViewComponent)
 @interface MAPointAnnotation(imageAnnotation)
 
 @property(nonatomic, copy) NSString *iconImage;

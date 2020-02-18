@@ -7,7 +7,7 @@ android {
         minSdkVersion project.appMinSdkVersion
         targetSdkVersion project.targetSdkVersion
 
-        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         javaCompileOptions {
             annotationProcessorOptions {
                 includeCompileClasspath = true
@@ -29,7 +29,7 @@ dependencies {
     implementation "com.amap.api:3dmap:6.6.0"
     implementation "com.amap.api:location:4.4.0"
     //
-    compileOnly "com.android.support:appcompat-v7:${project.supportLibVersion}"
+    compileOnly "androidx.appcompat:appcompat:${project.appcompatVersion}"
     compileOnly "com.alibaba:fastjson:${project.fastjsonLibVersion}"
     compileOnly "org.apache.weex:sdk_legacy:${project.weex_sdkLibVersion}"
     //

@@ -1,7 +1,7 @@
 package eeui.android.amap.component;
 
 import android.content.Context;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 
 import com.amap.api.maps.AMap;
 import com.amap.api.maps.TextureMapView;
